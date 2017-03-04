@@ -120,7 +120,7 @@ function addToneToMail(options) {
 		options.text = texts;
 		addToHTML(options);
 	}, function (error) {
-		options.text = error;
+		options.text = "Unexpected Error";
 		addToHTML(options);
 	})
 	
