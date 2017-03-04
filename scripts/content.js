@@ -55,7 +55,6 @@ function analyzeTone(options, successCallback, errorCallback) {
 		tones.sort(function (a, b) {
 			return b.score - a.score;
 		});
-		console.dir(tones);
 		successCallback(tones);
 	}, errorCallback);
 }
