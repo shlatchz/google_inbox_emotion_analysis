@@ -1,5 +1,5 @@
-// Filter to page: https://inbox.google.com/?pli=1
-var rxLookfor = /^https\:\/\/inbox\.google\.com\/\?pli=1$/;
+// Filter to page: https://inbox.google.com/
+var rxLookfor = /^https\:\/\/inbox\.google\.com\//;
 // Listen for tab updates.
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (changeInfo.status === "complete" && 
