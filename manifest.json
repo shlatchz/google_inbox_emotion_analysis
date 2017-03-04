@@ -8,7 +8,7 @@
   "permissions": [
     "contextMenus", 
     "tabs",
-	"https://inbox.google.com/?pli=1",
+	"https://inbox.google.com/",
 	"https://gateway.watsonplatform.net/"],
   "icons": {
     // Icon source: http://www.flaticon.com/icon-packs/emotions
@@ -25,7 +25,7 @@
   "content_scripts": [
 		{
 			"matches": [
-				"https://inbox.google.com/?pli=1"
+				"https://inbox.google.com/*"
 			],
 			"js": [
 				"scripts/content.js"
