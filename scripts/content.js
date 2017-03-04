@@ -109,7 +109,7 @@ function addToHTML(options) {
 	else {
 		var error = document.createElement("span");
 		error.style["color"] = "#cd0a0a";
-		error.innerHTML = options.text;
+		error.innerHTML = options.error;
 		div.appendChild(error);
 	}
 	options.node.appendChild(div);
